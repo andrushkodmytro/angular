@@ -86,6 +86,7 @@ mainApp.controller('mainCtrl', ($scope)=>{
 	$scope.change=(index)=>{
 		let pos=$scope.user.pos;
 		$scope.mas[pos].courses[index].bool=!$scope.mas[pos].courses[index].bool;
-		console.log($scope.mas[pos].courses[index].bool)
+		console.log($scope.mas[pos].courses[index].bool);
+		
 	}
 })
